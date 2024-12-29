@@ -10,8 +10,8 @@ function App() {
       <Food />
        <Card />
       <Footer /> */}
-      <Student name="Spongebob" age={30} isStudent={true}/>
-      <Student name="Sanskar Diwedi" age={20} isStudent={true} />
+      <Student name="SpongeBob" age={30} isStudent={true}/>
+      <Student name="Sanskar" age={20} isStudent={true} />
       <Student name="Kaveri" age={20} isStudent={true} />
       <Student name="Vainavi" age={20} isStudent={true} />
     </>

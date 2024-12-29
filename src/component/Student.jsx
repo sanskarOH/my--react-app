@@ -2,10 +2,15 @@
 //Props allow components to be dynamic and reusable by customizing their behavior 
 //and appearance based on the data passed.
 
+import PropTypes from "prop-types";
 
 
+//Prop Types = a mechanism that ensures that the passed
+// vaule is of the correct datatype
+// age: ProtoTypes.number
 
 
+//defautl props are props passed when no input is provided
 const Student = (props)=>{
     return(
         <div className="font-sans font-serif text-xl p-10 border-solid border border-black">
@@ -16,6 +21,18 @@ const Student = (props)=>{
 
     );
 
+}
+
+Student.propTypes ={
+    name : PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool,
+}
+
+Student.defaultProps = {
+    name: "Guest",
+    age: 0,
+    isStudent: false,
 }
 
 export default Student;
