@@ -3,7 +3,8 @@
 // import Food from './component/Food.jsx'
 // import Card from  './component/Card.jsx'
 // import Student from './component/Student.jsx' 
-import UserGreeting from './component/UserGreeting.jsx';
+// import UserGreeting from './component/UserGreeting.jsx';
+import List from './component/List.jsx'
 function App() {
   return(
     <>
@@ -15,7 +16,8 @@ function App() {
       <Student name="Sanskar" age={20} isStudent={true} />
       <Student name="Kaveri" age={20} isStudent={true} />
       <Student name="Vainavi" age={20} isStudent={true} /> */}
-      <UserGreeting name="Sanskar Diwedi" isLoggedIn={false}/>
+      {/* <UserGreeting name="Sanskar Diwedi" isLoggedIn={false}/> */}
+      <List />
 
     </>
     
