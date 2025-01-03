@@ -7,6 +7,7 @@
 // import List from './component/List.jsx'
 
 import Button from "./component/Button.jsx";
+import ProfilePic from "./component/ProfilePic.jsx";
 function App() {
   return(
     <>
@@ -20,7 +21,8 @@ function App() {
       <Student name="Vainavi" age={20} isStudent={true} /> */}
       {/* <UserGreeting name="Sanskar Diwedi" isLoggedIn={false}/> */}
       {/* <List /> */}
-      <Button />
+      {/* <Button /> */}
+      <ProfilePic />
 
     </>
     
