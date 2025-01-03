@@ -2,7 +2,7 @@ const ProfilePic = () => {
   const imageURL = "./src/assets/pfp.jpeg";
 
   const revealImage = (target) => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         target.style.display = "initial";
         resolve();
