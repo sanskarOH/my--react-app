@@ -1,27 +1,30 @@
-const ProfilePic = () =>{
+const ProfilePic = () => {
+  const imageURL = "./src/assets/pfp.jpeg";
 
-    const imageURL = './src/assets/pfp.jpeg'
+  const revealImage = (target) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        target.style.display = "initial";
+        resolve();
+      }, 2000);
+    });
+  };
 
-    const revealImage =  (target) =>{
-        setTimeout(()=>{
-            target.style.display = "initial"
-        },2000)
+  const handleClick = async (e) => {
+    // console.log(e);
+    const target = e.target;
+    target.style.display = "none";
+    console.log("Image hidden");
 
-    }
+    await revealImage(target);
+    console.log("image reveals");
 
-    const handleClick = async (e) =>{
-        console.log(e);
-        const target = e.target;
-        target.style.display = "none"
-        await revealImage(target)
-        // setTimeout(()=>{
-        //     target.style.display = "initial";
-        // },500)
-        
-    }
+    // setTimeout(()=>{
+    //     target.style.display = "initial";
+    // },500)
+  };
 
-    return(<img onClick={(e)=>handleClick(e)}src={imageURL}></img>)
+  return <img onClick={(e) => handleClick(e)} src={imageURL}></img>;
+};
 
-}
-
-export default ProfilePic
+export default ProfilePic;
