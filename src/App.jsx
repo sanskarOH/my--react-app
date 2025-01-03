@@ -22,7 +22,7 @@ function App() {
       {/* <UserGreeting name="Sanskar Diwedi" isLoggedIn={false}/> */}
       {/* <List /> */}
       {/* <Button /> */}
-      <ProfilePic />
+      {/* <ProfilePic /> */}
 
     </>
     
