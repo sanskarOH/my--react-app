@@ -22,7 +22,7 @@ const Counter = () => {
 
   return (
     <div className="text-center font-sans space-x-2">
-      <p className=" text-9xl">{count}</p>
+      <p className=" text-[10em] mt-0 mb-[50px]">{count}</p>
       <button className="btn" onClick={decrementCount}>
         Decrement
       </button>
