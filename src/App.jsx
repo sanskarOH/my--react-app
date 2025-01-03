@@ -2,14 +2,16 @@
 // import Footer from './component/Footer.jsx'
 // import Food from './component/Food.jsx'
 // import Card from  './component/Card.jsx'
-// import Student from './component/Student.jsx' 
+// import Student from './component/Student.jsx'
 // import UserGreeting from './component/UserGreeting.jsx';
 // import List from './component/List.jsx'
 
-import Button from "./component/Button.jsx";
-import ProfilePic from "./component/ProfilePic.jsx";
+// import Button from "./component/Button.jsx";
+// import ProfilePic from "./component/ProfilePic.jsx";
+
+import States from "./component/States.jsx";
 function App() {
-  return(
+  return (
     <>
       {/* <Header />
       <Food />
@@ -23,17 +25,13 @@ function App() {
       {/* <List /> */}
       {/* <Button /> */}
       {/* <ProfilePic /> */}
-
+      <States />
     </>
-    
-
   );
-
 }
 
-export default App
+export default App;
 
-
-//Conditional rendering :lets you control what gets rendered 
-//in your app based on certain conditions 
+//Conditional rendering :lets you control what gets rendered
+//in your app based on certain conditions
 // {show,hide or chnage components}
