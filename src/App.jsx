@@ -9,7 +9,9 @@
 // import Button from "./component/Button.jsx";
 // import ProfilePic from "./component/ProfilePic.jsx";
 
-import States from "./component/States.jsx";
+// import States from "./component/States.jsx";\
+
+import Counter from "./component/Counter.jsx";
 function App() {
   return (
     <>
@@ -25,7 +27,8 @@ function App() {
       {/* <List /> */}
       {/* <Button /> */}
       {/* <ProfilePic /> */}
-      <States />
+      {/* <States /> */}
+      <Counter />
     </>
   );
 }
